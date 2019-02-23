@@ -1,6 +1,7 @@
 package test;
 
 import java.util.Scanner;
+import java.lang.*;
 
 public class CatAndMouse {
 	
@@ -16,15 +17,18 @@ public class CatAndMouse {
 		int a=0;
 		int b=0;
 		
-		if(x>z)
-			a=x-z;
-		else
-			a=z-x;
+		//if(x>z)
+			//a=x-z;
+		//else
+			//a=z-x;
 		
-		if(y>z)
-			b=y-z;
-		else
-			b=z-y;
+		//if(y>z)
+			//b=y-z;
+		//else
+			//b=z-y;
+		
+	 a=Math.abs(x-z);
+	 b=Math.abs(y-z);
 		
 		
 		if(b>a)
